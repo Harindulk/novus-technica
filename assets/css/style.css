@@ -332,50 +332,6 @@ a:hover {
   }
 }
 
-/*------/ Prelaoder /------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #000000;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /*------/ Button /------*/
 .button {
   display: inline-block;
@@ -750,73 +706,6 @@ a:hover {
   background-color: #0078ff;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.service-box {
-  background-color: #fff;
-  padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
-  margin-bottom: 3rem;
-}
-
-.service-box:hover .ico-circle {
-  transition: all 500ms ease;
-  color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
-}
-
-.service-box .service-ico {
-  margin-bottom: 1rem;
-  color: #1e1e1e;
-}
-
-.service-box .ico-circle {
-  transition: all 500ms ease;
-  font-size: 4rem;
-}
-
-.service-box .s-title {
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  text-align: center;
-  padding: .4rem 0;
-}
-
-.service-box .s-description {
-  color: #4e4e4e;
-}
-
-/*--------------------------------------------------------------
-# Counter
---------------------------------------------------------------*/
-.counter-box {
-  color: #fff;
-  text-align: center;
-}
-
-@media (min-width: 577px) {
-  .counter-box {
-    margin-bottom: 1.8rem;
-  }
-}
-
-.counter-ico {
-  margin-bottom: 1rem;
-}
-
-.counter-ico .ico-circle {
-  height: 60px;
-  width: 60px;
-  line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
-}
-
-.counter-num .counter {
-  font-size: 2rem;
-  margin-bottom: 0;
-}
 
 /*--------------------------------------------------------------
 # Footer
