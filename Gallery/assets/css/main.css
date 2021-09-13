@@ -5,6 +5,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		font-family: 'Quicksand', sans-serif;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -139,6 +140,7 @@
 
 		#header h1 {
 			color: rgba(255, 255, 255, 0.65);
+			font-size: larger;
 		}
 
 		#header .avatar {
