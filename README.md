@@ -1,1 +1,1 @@
-### www.novus-technica.com
+### http://harindu.me/novus-technica/
